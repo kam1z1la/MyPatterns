@@ -1,4 +1,4 @@
-package com.myprojects.patterns.generative.abstractFactory.enums;
+package com.myprojects.patterns.generative.abstracktFactory;
 
 public enum TypeCafe {
     AMERICAN,
