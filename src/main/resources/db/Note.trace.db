@@ -1,0 +1,130 @@
+2023-09-30 21:51:03.987604+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1371)
+	at insert(NoteService.java:36)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:14)
+2023-09-30 21:52:57.426173+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1371)
+	at insert(NoteService.java:36)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:14)
+2023-09-30 21:53:37.223307+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1371)
+	at insert(NoteService.java:36)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:14)
+2023-09-30 21:54:34.248336+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "0" для параметра "parameterIndex"
+Invalid value "0" for parameter "parameterIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1408)
+	at org.h2.jdbc.JdbcPreparedStatement.setString(JdbcPreparedStatement.java:391)
+	at insert(NoteService.java:35)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:14)
+2023-09-30 21:55:45.826925+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set [90012-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1371)
+	at insert(NoteService.java:36)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:14)
+2023-09-30 21:58:15.429115+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#1" не установлен
+Parameter "#1" is not set [90012-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.jdbc.JdbcPreparedStatement.addBatch(JdbcPreparedStatement.java:1371)
+	at insert(NoteService.java:39)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:14)
+2023-09-30 21:59:21.017504+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2023-09-30 22:00:55.331985+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2023-09-30 23:32:27.268526+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-224]
+2023-09-30 23:33:31.492410+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-224]
+2023-09-30 23:34:44.614976+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "title" не найден
+Column "title" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at com.myprojects.patterns.generative.singltone.note.NoteService.findById(NoteService.java:22)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:22)
+2023-09-30 23:35:09.718724+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "title" не найден
+Column "title" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at com.myprojects.patterns.generative.singltone.note.NoteService.findById(NoteService.java:22)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:22)
+2023-09-30 23:40:34.259400+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "update [*]set title = ?, content = ?,access = ?,where id = ?;"; ожидалось "identifier"
+Syntax error in SQL statement "update [*]set title = ?, content = ?,access = ?,where id = ?;"; expected "identifier"; SQL statement:
+update set title = ?, content = ?,access = ?,where id = ?; [42001-224]
+2023-09-30 23:45:48.790816+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "update [*]set title = ?, content = ?, access = ? where id = ?"; ожидалось "identifier"
+Syntax error in SQL statement "update [*]set title = ?, content = ?, access = ? where id = ?"; expected "identifier"; SQL statement:
+update set title = ?, content = ?, access = ? where id = ? [42001-224]
+2023-09-30 23:46:20.351615+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "update [*]set title = ?, content = ?, access = ? where id = ?"; ожидалось "identifier"
+Syntax error in SQL statement "update [*]set title = ?, content = ?, access = ? where id = ?"; expected "identifier"; SQL statement:
+update set title = ?, content = ?, access = ? where id = ? [42001-224]
+2023-09-30 23:46:47.299112+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "update [*]set title = ?, content = ?, access = ? where id = ?;"; ожидалось "identifier"
+Syntax error in SQL statement "update [*]set title = ?, content = ?, access = ? where id = ?;"; expected "identifier"; SQL statement:
+update set title = ?, content = ?, access = ? where id = ?; [42001-224]
+2023-10-01 15:27:32.143663+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "title" не найден
+Column "title" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at com.myprojects.patterns.generative.singltone.note.NoteService.findById(NoteService.java:22)
+	at com.myprojects.patterns.generative.singltone.SingleToneApplication.main(SingleToneApplication.java:29)
+2023-10-01 15:33:02.184595+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-224]

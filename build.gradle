@@ -27,6 +27,9 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'org.flywaydb:flyway-core:9.22.2'
+	implementation 'com.h2database:h2:2.2.224'
 }
 
 tasks.named('test') {

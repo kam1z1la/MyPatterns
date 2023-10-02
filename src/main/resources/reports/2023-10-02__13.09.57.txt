@@ -1,0 +1,22 @@
+2023-10-02 13:09:57.248 +03:00 INFO 1914: Start migration success: true
+2023-10-02 13:09:57.257 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:57.303 +03:00 TRACE 1914: List of all records in the table[Note(id=2, title=testUpdate, content=testUpdate, access=testUpdate), Note(id=3, title=testUpdate, content=null, access=testUpdate), Note(id=6, title=test, content=test, access=test), Note(id=7, title=test, content=test, access=test), Note(id=8, title=test, content=test, access=test), Note(id=9, title=test, content=test, access=test), Note(id=10, title=test, content=test, access=test), Note(id=11, title=test, content=test, access=test), Note(id=12, title=test, content=test, access=test), Note(id=13, title=test, content=test, access=test)]
+2023-10-02 13:09:57.348 +03:00 INFO 1914: Database connection close
+2023-10-02 13:09:57.358 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:57.411 +03:00 INFO 1914: Data added successfully: Note(id=null, title=test, content=test, access=PUBLIC)
+2023-10-02 13:09:57.634 +03:00 INFO 1914: Database connection close
+2023-10-02 13:09:57.644 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:57.679 +03:00 WARN 1914: ID not found
+2023-10-02 13:09:57.895 +03:00 INFO 1914: Database connection close
+2023-10-02 13:09:57.905 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:57.955 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:57.967 +03:00 INFO 1914: Database connection close
+2023-10-02 13:09:57.979 +03:00 ERROR 1914: Id doesn't exist: 
+java.lang.IllegalArgumentException
+2023-10-02 13:09:58.197 +03:00 INFO 1914: Database connection close
+2023-10-02 13:09:58.209 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:58.256 +03:00 WARN 1914: ID not found
+2023-10-02 13:09:58.479 +03:00 INFO 1914: Database connection close
+2023-10-02 13:09:58.488 +03:00 INFO 1914: Database connection
+2023-10-02 13:09:58.528 +03:00 TRACE 1914: List of all records in the table[Note(id=2, title=testUpdate, content=testUpdate, access=testUpdate), Note(id=3, title=testUpdate, content=null, access=testUpdate), Note(id=6, title=test, content=test, access=test), Note(id=7, title=test, content=test, access=test), Note(id=8, title=test, content=test, access=test), Note(id=9, title=test, content=test, access=test), Note(id=10, title=test, content=test, access=test), Note(id=11, title=test, content=test, access=test), Note(id=12, title=test, content=test, access=test), Note(id=13, title=test, content=test, access=test), Note(id=14, title=test, content=test, access=test)]
+2023-10-02 13:09:58.756 +03:00 INFO 1914: Database connection close

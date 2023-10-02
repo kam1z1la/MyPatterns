@@ -2,7 +2,7 @@ package com.myprojects.patterns.generative.abstracktFactory.eastern;
 
 import com.myprojects.patterns.generative.abstracktFactory.product.Coffee;
 import com.myprojects.patterns.generative.abstracktFactory.product.ProductFactory;
-import com.myprojects.patterns.generative.abstracktFactory.product.Sweats;
+import com.myprojects.patterns.generative.abstracktFactory.product.Sweets;
 import com.myprojects.patterns.generative.abstracktFactory.product.Tea;
 
 public class EasternFactory implements ProductFactory {
@@ -18,8 +18,8 @@ public class EasternFactory implements ProductFactory {
     }
 
     @Override
-    public Sweats createSweats() {
-        return new EasternSweats();
+    public Sweets createSweats() {
+        return new EasternSweets();
     }
 
 }
