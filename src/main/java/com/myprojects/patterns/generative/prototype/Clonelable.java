@@ -1,5 +1,5 @@
 package com.myprojects.patterns.generative.prototype;
 
-public interface Prototype<T> {
+public interface Clonelable<T> {
     T clone();
 }

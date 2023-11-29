@@ -1,44 +1,39 @@
 package com.myprojects.patterns.generative.builder;
 
 public class BallpointPenBuilder implements Builder {
-    private String brand;
-    private String color;
-    private double tipSize;
-    private boolean retractable;
-    private String type;
+    private BallpointPen ballpointPen;
+
+    public BallpointPenBuilder() {
+        this.ballpointPen = new BallpointPen();
+    }
+
+    @Override
+    public void brand(String brand) {
+        ballpointPen.setBrand(brand);
+    }
+
+    @Override
+    public void color(String color) {
+        ballpointPen.setColor(color);
+    }
+
+    @Override
+    public void tipSize(double tipSize) {
+        ballpointPen.setTipSize(tipSize);
+    }
+
+    @Override
+    public void retractable(boolean retractable) {
+        ballpointPen.setRetractable(retractable);
+    }
+
+    @Override
+    public void type(String type) {
+        ballpointPen.setType(type);
+    }
 
     @Override
     public BallpointPen build() {
-        return new BallpointPen(brand, color, tipSize, retractable, type);
-    }
-
-    @Override
-    public Builder brand(String brand) {
-        this.brand = brand;
-        return this;
-    }
-
-    @Override
-    public Builder color(String color) {
-        this.color = color;
-        return this;
-    }
-
-    @Override
-    public Builder tipSize(double tipSize) {
-        this.tipSize = tipSize;
-        return this;
-    }
-
-    @Override
-    public Builder retractable(boolean retractable) {
-        this.retractable = retractable;
-        return this;
-    }
-
-    @Override
-    public Builder type(String type) {
-        this.type = type;
-        return this;
+        return ballpointPen;
     }
 }
