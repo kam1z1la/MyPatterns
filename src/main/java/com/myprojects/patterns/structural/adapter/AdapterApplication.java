@@ -18,8 +18,6 @@ public class AdapterApplication {
 
         System.out.println("Set: " +integers);
 
-        System.out.println("////////////////////////////////");
-
         DynamicMultiplicity<Integer> dynamicMultiplicity = new DynamicMultiplicity<>();
         Set<Integer> multiplicity = dynamicMultiplicity.generateMultiplicity();
         multiplicity.addAll(integers);
