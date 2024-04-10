@@ -34,7 +34,6 @@ class BrakesTest {
                 5000.0,
                 "description"));
 
-
         assertAll(
                 () -> assertTrue(Objects.nonNull(assemblyLine.assemblyLine)),
                 () -> assertInstanceOf(Suspension.class, assemblyLine.assemblyLine)
